@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Jagdish Lamba</title>
+
+  
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jagdish Lamba | Deep Learning Engineer" />
+  <meta property="og:description" content="Deep Learning Engineer" />
+  <meta property="og:url" content="https://jagdishlamba.github.io/" />
+  <meta property="og:site_name" content="Jagdish Lamba | Deep Learning Engineer" />
+  <meta property="article:publisher" content="https://jagdishlamba.github.io/" />
+  <meta property="og:image" content="https://jagdishlamba.github.io/examples/preview.JPG" />
+  
+  </head>
+
+<body>
+    
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="./assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the certification section" href="#certification" class="waves-effect waves-dark teal-text"><i
+            class=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4 3c-1.11 0-2 .89-2 2v10a2 2 0 0 0 2 2h8v5l3-3l3 3v-5h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H4m8 2l3 2l3-2v3.5l3 1.5l-3 1.5V15l-3-2l-3 2v-3.5L9 10l3-1.5V5M4 5h5v2H4V5m0 4h3v2H4V9m0 4h5v2H4v-2Z"/></svg></i><span>Certification</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        
+        <a aria-label="Open Jagdish's resume in a new tab" href="https://jagdishlamba.github.io/assets/resume/jagdish-resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Jagdish
+        Lamba</a><span class="black-text">Deep Learning Engineer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the certification section" href="#certification" class="waves-effect waves-dark teal-text"><i
+            class=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4 3c-1.11 0-2 .89-2 2v10a2 2 0 0 0 2 2h8v5l3-3l3 3v-5h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H4m8 2l3 2l3-2v3.5l3 1.5l-3 1.5V15l-3-2l-3 2v-3.5L9 10l3-1.5V5M4 5h5v2H4V5m0 4h3v2H4V9m0 4h5v2H4v-2Z"/></svg></i><span>Certification</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Jagdish's resume in a new tab" href="https://jagdishlamba.github.io/assets/resume/jagdish-resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Jagdish Lamba</span>.</h2>
+              <h5 style="color:#fff"> <span class="typing" style="font-weight: 400; color:#fff"></span></h5>
+              <h5 style="color:#fff; font-weight:400;">5+ years of hands-on experience building and deploying advanced AI solutions for real-world impact.</h5>
+              <h5 style="color:#fff; font-weight:400;">Expert in LLMs, RAG, Computer Vision, NLP, and scalable GPU/Edge AI systems.</h5>
+              <h5 style="color:#fff; font-weight:400;">Proven track record leading end-to-end AI projects from research to production, leveraging the latest technologies to solve business-critical challenges.</h5>
+            </div>
+            <div class="social">
+              <a href="http://linkedin.com/in/jagdishlamba" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/jagdishlamba/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <blockquote>
+          <h2>
+            "Delivering business value through cutting-edge AI: LLMs, RAG, Computer Vision, and Edge Intelligence."
+          </h2>
+        </blockquote>
+        <p>
+          &emsp;&emsp;&emsp; I am a results-driven AI Engineer with 5+ years of experience architecting, developing, and deploying state-of-the-art solutions in Deep Learning, LLMs, RAG, Computer Vision, and NLP. My expertise spans the full AI lifecycle—from research and
+           prototyping to scalable production deployments on GPU clusters and edge devices.<br>
+
+          &emsp;&emsp;&emsp; I have led and contributed to high-impact projects including LLM-based summarization, enterprise RAG systems, and real-time vision/NLP inference on edge using Gstreamer, DeepStream and multi-GPU setups. I am passionate about leveraging the latest 
+          advancements in AI to solve complex business problems, drive innovation, and deliver measurable results.<br>
+        </p>
+        <p>
+          <ul>
+            <li><b>Core Expertise:</b> LLMs, RAG, Computer Vision, NLP, Deep Learning, Edge AI, Multi-GPU/Distributed Training, MLOps</li>
+            <li><b>Frameworks & Tools:</b> PyTorch, TensorFlow, HuggingFace, LangChain, DeepStream, MLFlow, Airflow, Flask, Django, CUDA</li>
+            <li><b>Deployment:</b> Cloud, On-premise GPU, Edge Devices (Jetson, Xavier, etc.), API & Web Integration</li>
+            <li><b>Soft Skills:</b> Project Leadership, Cross-functional Collaboration, Technical Mentoring, Agile Delivery</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+     <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="#" target="_blank"><img src="#" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank"
+                      class="teal-text hoverline"></a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Senior AI Engineer</div>
+            <ul>
+              <li>Designed, fine-tuned, and deployed LLMs and RAG systems for enterprise-scale document understanding, summarization, and Q&A.</li>
+              <li>Developed advanced NLP and semantic search pipelines using state-of-the-art transformer architectures and vector databases.</li>
+              <li>Led multi-GPU and edge device deployments for real-time AI inference (vision and NLP) using DeepStream, Gstreamer and CUDA.</li>
+              <li>Architected distributed training and inference workflows, maximizing GPU utilization and throughput for large-scale AI projects.</li>
+              <li>Collaborated with cross-functional teams to deliver production-grade AI solutions, ensuring scalability, reliability, and measurable business impact.</li>
+              <li>Mentored engineers and established best practices in MLOps, model monitoring, and continuous delivery for AI/ML systems.</li>
+              <li>
+                <b>Key Tools & Libraries:</b> PyTorch, TensorFlow, HuggingFace Transformers, LangChain, DeepStream,, FAISS, MLFlow, Airflow, Ollama
+              </li>
+              <li>
+                <b>Hardware:</b> Multi-GPU (Tesla V100, A100), NVIDIA Jetson Edge Devices
+              </li>
+              <li>
+                <b>OS:</b> Windows, Linux
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>July 2019 - Present | Indore  , India</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+          <!-- LLM Summarization Project -->
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="LLM Summarization" src="./assets/img/summerization.png" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">LLM Summarization</span>
+                <a href="#llm-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Edge AI Project -->
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Edge AI DeepStream" src="./assets/img/edgeAI.png" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Edge AI with DeepStream</span>
+                <a href="#edge-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avekshan Project -->
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Avekshan" src="./assets/img/video_analysis.png" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">AI based Object Tracking System</span>
+                <a href="#avekshan-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vehicle Detection Project -->
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Vehicle Detection" src="./assets/img/anpr.png" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Advance ANPR System</span>
+                <a href="#vehicle-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Change Detection Project -->
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Change Detection" src="./assets/img/change_detection_400.webp" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Drone based Change Detection</span>
+                <a href="#change-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Face Recognition" src="./assets/img/face.jpg" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Advance Face recognition based Attendence System</span>
+                <a href="#change-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Image Captioning" src="./assets/img/caption.png" style="height: 100%; width: 100%; object-fit: cover;" />
+              </div>
+              <div class="card-content">
+                <span class="card-title teal-text">Image Captioning System for Blinds</span>
+                <a href="#caption-modal" class="modal-trigger project-read-more">read more...</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal Structures -->
+      <!-- LLM Modal -->
+      <div id="llm-modal" class="modal">
+        <div class="modal-content">
+          <h4 class="teal-text">Offline LLM-Based Document Summarization</h4>
+          <p>Designed an offline pipeline for summarizing long-form documents using fine-tuned Large Language Models. Built a lightweight, local-first architecture suitable for environments with data privacy constraints or limited internet access.</p>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Fine-tuned transformer models for domain-specific summarization</li>
+            <li>Complete offline operation with no internet dependency</li>
+            <li>Privacy-first architecture for sensitive document processing</li>
+            <li>Optimized inference pipeline for fast document processing</li>
+            <li>Support for multiple document formats (PDF, DOCX, TXT)</li>
+            <li>Customizable summarization length and style parameters</li>
+          </ul>
+          <p><strong>Technologies Used:</strong> HuggingFace Transformers, Ollama, LangChain, Chromadb</p>
+          <p><strong>Impact:</strong> Reduced document processing time by 80% while maintaining complete data privacy and eliminating internet dependency for sensitive environments.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+
+      <!-- Edge AI Modal -->
+      <div id="edge-modal" class="modal">
+        <div class="modal-content">
+          <h4 class="teal-text">Edge Device Object Detection & Tracking</h4>
+          <p>Deployed real-time object detection and tracking models on NVIDIA Jetson and Raspberry Pi devices. Optimized models using TensorRT and ONNX for efficient inference on low-power edge devices.</p>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Real-time object detection and tracking on edge devices</li>
+            <li>Model optimization using TensorRT and ONNX for efficient inference</li>
+            <li>Multi-device deployment (NVIDIA Jetson, Raspberry Pi)</li>
+            <li>Low-power consumption with high accuracy performance</li>
+            <li>Custom object class detection and alert systems</li>
+          </ul>
+          <p><strong>Technologies Used:</strong> TensorRT, ONNX, OpenCV, PyTorch, NVIDIA DeepStream, GStreamer</p>
+          <p><strong>Impact:</strong> Achieved multi camera real-time inference (30 FPS) on edge devices while reducing power consumption by 60% compared to cloud-based solutions.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Avekshan Modal -->
+      <div id="avekshan-modal" class="modal">
+        <div class="modal-content">
+          <h4 class="teal-text">Multi-Feed Real-Time Object Tracking System</h4>
+          <p>Developed a comprehensive real-time object tracking solution using OpenCV (compiled with CUDA) and GStreamer for high-performance multi-camera feeds. Designed custom object classes to detect intrusions and trigger real-time alerts, optimized for low-latency performance on GPU-enabled systems.</p>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Multi-camera feed processing with CUDA-accelerated OpenCV</li>
+            <li>Custom object detection classes for intrusion detection</li>
+            <li>Real-time alert system with configurable triggers</li>
+            <li>Low-latency performance optimization on GPU systems</li>
+            <li>GStreamer integration for efficient video pipeline</li>
+            <li>Database logging for analytics and forensic analysis</li>
+          </ul>
+          <p><strong>Technologies Used:</strong> OpenCV with CUDA, GStreamer, PyTorch, Custom OCR, GPU Computing, YOLO</p>
+          <p><strong>Impact:</strong> Deployed in multiple security installations with 95% detection accuracy and sub-100ms latency for real-time threat detection.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Vehicle Detection Modal -->
+      <div id="vehicle-modal" class="modal">
+        <div class="modal-content">
+          <h4 class="teal-text">Offline Real-Time Automatic Number Plate Recognition (ANPR)</h4>
+          <p>Built a robust ANPR system trained on a custom vehicle dataset, capable of recognizing number plates in real-time without internet connectivity. Achieved high accuracy in various lighting and angle conditions using custom OCR and detection pipelines.</p>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Custom-trained model on diverse vehicle dataset</li>
+            <li>Complete offline operation with no internet dependency</li>
+            <li>High accuracy across various lighting and angle conditions</li>
+            <li>Real-time processing with custom OCR pipeline</li>
+            <li>Multi-format number plate support (single line, two line, green, yellow, white etc)</li>
+            <li>Audio-visual alert system for suspicious vehicle detection</li>
+          </ul>
+          <p><strong>Technologies Used:</strong> YOLOv11, Custom OCR, OpenCV, PyTorch, Computer Vision, Image Processing</p>
+          <p><strong>Impact:</strong> Successfully deployed in checkpoints with 92% accuracy in license plate recognition across diverse environmental conditions.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <!-- Image Captioning Modal -->
+      <div id="caption-modal" class="modal">
+        <div class="modal-content">
+          <h4 class="teal-text">Image Captioning System for Blind People</h4>
+          <p>Developed an intelligent image captioning system using encoder-decoder architecture to automatically generate descriptive captions for images. This assistive technology helps visually impaired individuals understand visual content through natural language descriptions.</p>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Encoder-decoder architecture for accurate image understanding</li>
+            <li>CNN-based visual feature extraction from input images</li>
+            <li>NLP-powered natural language caption generation</li>
+            <li>Real-time image processing and caption generation</li>
+            <li>User-friendly interface for easy accessibility</li>
+            <li>Optimized for diverse image types and scenarios</li>
+            <li>Offline capability for privacy and reliability</li>
+          </ul>
+          <p><strong>Technologies Used:</strong> CNN, NLP, Encoder-Decoder Architecture, TensorFlow, OpenCV, Python</p>
+          <p><strong>Impact:</strong> Thesis project designed to enhance accessibility for blind and visually impaired individuals by providing accurate, descriptive captions that help them understand visual content in their environment.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Computer Vision Skills -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Computer Vision</h4>
+            <div class="row text-center" style="margin-bottom: 24px;">
+              <div class="col s6 m2 skills-item">
+                <img alt="OpenCV" src="./assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />
+                <span>OpenCV</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="PyTorch" src="./assets/img/pytorch-logo.png" class="responsive-img" />
+                <span>PyTorch</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="TensorFlow" src="./assets/img/tensorflow-logo-1.png" class="responsive-img" />
+                <span>TensorFlow</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="DeepStream" src="./assets/img/Deepstream.png" class="responsive-img" />
+                <span>DeepStream</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Gstreamer" src="./assets/img/gstreamer.png" class="responsive-img" />
+                <span>Gstreamer</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="YOLO" src="./assets/img/yolo.webp" class="responsive-img" />
+                <span>YOLO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NLP Skills -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Natural Language Processing (NLP)</h4>
+            <div class="row text-center" style="margin-bottom: 24px;">
+              <div class="col s6 m2 skills-item">
+                <img alt="HuggingFace" src="./assets/img/huggingface.jpg" class="responsive-img" />
+                <span>HuggingFace Transformers</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="LangChain" src="./assets/img/LangChain.png" class="responsive-img" />
+                <span>LangChain</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Ollama" src="./assets/img/ollama.png" class="responsive-img" />
+                <span>Ollama</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Chromadb" src="./assets/img/chroma.png" class="responsive-img" />
+                <span>Chromadb</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="NLTK" src="./assets/img/nltk.png" class="responsive-img" />
+                <span>NLTK</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="SpaCy" src="./assets/img/spacy.png" class="responsive-img" />
+                <span>SpaCy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Miscellaneous Skills -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Miscellaneous</h4>
+            <div class="row text-center" style="margin-bottom: 24px;">
+              <div class="col s6 m2 skills-item">
+                <img alt="Git" src="./assets/img/git.png" class="responsive-img" />
+                <span>Git</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Linux" src="./assets/img/Ubuntu_500x500.png" class="responsive-img" />
+                <span>Linux</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Anaconda" src="./assets/img/anaconda_500x500.png" class="responsive-img" />
+                <span>Anaconda</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="VS Code" src="./assets/img/vscode_500x500.png" class="responsive-img" />
+                <span>VS Code</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Next.js" src="./assets/img/next.jpeg" class="responsive-img" />
+                <span>Next.js</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="PyQt5" src="./assets/img/pyqt_500x500.png" class="responsive-img" />
+                <span>PyQt5</span>
+              </div>
+            </div>
+            <div class="row text-center" style="margin-bottom: 24px;">
+              <div class="col s6 m2 skills-item">
+                <img alt="MLFlow" src="./assets/img/mlflow.jpg" class="responsive-img" />
+                <span>MLFlow</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Airflow" src="./assets/img/bootstrap.png" class="responsive-img" />
+                <span>Airflow</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Django" src="./assets/img/django.jpg" class="responsive-img" />
+                <span>Django</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="Flask" src="./assets/img/flask.png" class="responsive-img" />
+                <span>Flask</span>
+              </div>
+              <div class="col s6 m2 skills-item">
+                <img alt="FastAPI" src="./assets/img/fastapi.webp" class="responsive-img" />
+                <span>FastAPI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- certifications -->
+        <section id="certification" class="section scrollspy">
+        <h3 class="page-title white-text teal">Certificates</h3>
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="./assets/img/python_zero_hero.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Complete Python Bootcamp</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="./assets/img/python_data_science.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Python for Data Science</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.ljmu.ac.uk/" target="_blank" class="teal-text hoverline">Liverpool John Moores University</a></span>
+                </p>
+                <p class="brown-text">Liverpool, UK</p>
+                <p>
+                  <b>Degree: </b>Master of Science in Artificial Intelligence and Machine Learning    
+                  <br>
+                  <b>Grading: </b> Merit
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Advance AI</li>
+                    <li>End to end Project Development</li>
+                    <li>Foundations of Algorithms</li>
+                    <li>Thesis Project on AI and Deep Learning</li>
+                    <br>                   
+                    <br>                   
+                    <br>
+                    <br>                   
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.iiitb.ac.in//" target="_blank" class="teal-text hoverline">International Institute of Information Technology</a></span>
+                </p>
+                <p class="brown-text">Bangalore, India</p>
+                <p>
+                  <b>Degree: </b>Exclusive Post Graduate Programme in Artificial Intelligence and Machine Learning (14 Months)
+                  <br>
+                  <b>CGPA: </b>3.74/4
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Advance Python & EDA</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Advance NLP</li>
+                    <li>Computer Vision</li>
+                    <li>MLOps</li>
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Jagdish" data-position="top" data-tooltip="Call Jagdish"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Jagdish">+918902674629</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Jagdish" href="mailto:jagdishlamba72@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Jagdish" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Jagdish" href="mailto:jagdishlamba72@gmail.com"
+              class="hoverline">jagdishlamba72@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Jagdish on GitHub" href="http://github.com/jagdishlamba" target="_blank"
+            data-position="top" data-tooltip="View Jagdish on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Jagdish on Github" href="http://github.com/jagdishlamba" class="hoverline"
+              target="_blank">github.com/jagdishlamba</a></a>
+        </p>
+        <p>
+          <a aria-label="View Jagdish on LinkedIn" href="http://linkedin.com/in/jagdishlamba" target="_blank"
+            data-position="top" data-tooltip="View Jagdish on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Jagdish on LinkedIn" href="http://linkedin.com/in/jagdishlamba"
+              class="hoverline" target="_blank">linkedin.com/in/jagdishlamba</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: [
+        "AI Engineer | Deep Learning Specialist | LLM & RAG Expert",
+        "LLM, RAG, Computer Vision, NLP, Edge AI",
+        "5+ Years Delivering Impactful AI Solutions",
+        "Multi-GPU, Edge Deployment, MLOps Leader"
+      ],
+      loop: true,
+      typeSpeed: 60,
+      backSpeed: 30
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+      // Initialize modals for Materialize 0.95.3
+      $('.modal-trigger').leanModal()
+    })
+  </script>
+</body>
+
+</html>
+
