@@ -787,8 +787,23 @@
         edge: "left", // Choose the horizontal origin
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
       })
-      // Initialize modals for Materialize 0.95.3
-      $('.modal-trigger').leanModal()
+      
+      // Initialize modals for Materialize 0.95.3 with scroll fix
+      $('.modal-trigger').leanModal({
+        dismissible: true,
+        opacity: 0.5,
+        ready: function() {
+          $('body').addClass('modal-open');
+        },
+        complete: function() {
+          $('body').removeClass('modal-open');
+        }
+      });
+      
+      // Additional modal scroll fix for mobile
+      $('.modal').on('touchmove', function(e) {
+        e.stopPropagation();
+      });
     })
   </script>
 </body>

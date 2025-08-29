@@ -482,6 +482,146 @@ h3 {
   font-weight: 500 !important;
 }
 
+/* Modal scroll fix */
+.modal {
+  max-height: 80% !important;
+  overflow-y: auto !important;
+  top: 10% !important;
+}
+
+.modal-content {
+  padding: 24px !important;
+  max-height: none !important;
+}
+
+/* Prevent background scroll when modal is open */
+body.modal-open {
+  overflow: hidden !important;
+}
+
+/* About section dark mode improvements */
+#about {
+  background: #f5f5f5;
+}
+
+#about .container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+#about blockquote {
+  border-left: 5px solid #009688;
+  background: rgba(0, 150, 136, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#about blockquote h2 {
+  color: #00695c;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 400;
+}
+
+#about p {
+  color: #424242;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+#about ul {
+  background: rgba(0, 150, 136, 0.05);
+  padding: 20px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+#about ul li {
+  color: #424242;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+#about ul li b {
+  color: #00695c;
+}
+
+/* Contact section dark mode improvements */
+#contact {
+  background: #f5f5f5;
+  padding: 60px 0;
+}
+
+#contact .container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+#contact p {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(0, 150, 136, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #009688;
+}
+
+#contact .btn-floating {
+  margin-right: 20px;
+  background-color: #009688 !important;
+  transition: all 0.3s ease;
+}
+
+#contact .btn-floating:hover {
+  background-color: #00695c !important;
+  transform: scale(1.1);
+}
+
+#contact .btn-floating i {
+  line-height: 56px;
+  color: white;
+}
+
+#contact a.hoverline {
+  color: #424242;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid #009688;
+  padding-bottom: 2px;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+}
+
+#contact a.hoverline:hover {
+  color: #00695c;
+  border-bottom-color: #00695c;
+  transform: translateY(-2px);
+}
+
+/* Phone number styling for non-link text */
+#contact a[aria-label="Call Jagdish"]:not(.hoverline) {
+  color: #424242;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid #009688;
+  padding-bottom: 2px;
+  margin-left: 15px;
+}
+
 /* Mobile specific styling */
 @media only screen and (max-width: 600px) {
   .skills-item {
@@ -498,6 +638,52 @@ h3 {
   .skills-item span {
     font-size: 0.8rem !important;
     line-height: 1.1 !important;
+  }
+
+  .modal {
+    width: 95% !important;
+    max-height: 85% !important;
+    top: 5% !important;
+  }
+
+  .modal-content {
+    padding: 16px !important;
+  }
+
+  #about .container {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #about blockquote h2 {
+    font-size: 1.2rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  #contact .container {
+    padding: 25px 15px;
+    margin: 10px;
+  }
+
+  #contact p {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  #contact .btn-floating {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  #contact a.hoverline,
+  #contact a[aria-label="Call Jagdish"]:not(.hoverline) {
+    margin-left: 0;
+    font-size: 1rem;
+    word-break: break-all;
   }
 }
 
